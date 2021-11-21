@@ -1,0 +1,36 @@
+{
+    "products": [{
+            "id": 1,
+            "name": "Xiami 6 Pro - Color Black",
+            "image": "",
+            "cost": "100 USD",
+            "department": "1",
+            "category": "1"
+        },
+        {
+            "id": 2,
+            "name": "iPhone Pro 11 - Plate",
+            "image": "",
+            "cost": "100 USD",
+            "department": "1",
+            "category": "1"
+        },
+        {
+            "id": 3,
+            "name": "Samsung  - Plate",
+            "image": "",
+            "cost": "100 USD",
+            "department": "1",
+            "category": "1"
+        }
+    ],
+    "departments": [{
+        "id": 1,
+        "name": "socks"
+    }],
+    "categories": {
+        "id": 1,
+        "name": "phones",
+        "department": "1"
+    }
+}
