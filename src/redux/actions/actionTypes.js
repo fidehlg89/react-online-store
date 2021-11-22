@@ -1,0 +1,79 @@
+/* PRODUCTS */
+//get especific PRODUCT
+export const GET_PRODUCT = "GET_PRODUCT"
+// get PRODUCT list - success
+export const GET_PRODUCT_SUCCESS = 'GET_PRODUCT_SUCCESS';
+//delete PRODUCT - failure
+export const GET_PRODUCT_FAILURE = "GET_PRODUCT_FAILURE"
+
+//get PRODUCTs list
+export const GET_PRODUCTS = "GET_PRODUCTS"
+// get PRODUCT list - success
+export const GET_PRODUCTS_SUCCESS = 'GET_PRODUCTS_SUCCESS';
+//delete PRODUCT - failure
+export const GET_PRODUCTS_FAILURE = "GET_PRODUCTS_FAILURE"
+
+//get PRODUCTs length
+export const COUNT_PRODUCTS = "COUNT_PRODUCTS"
+
+//delete PRODUCT
+export const DELETE_PRODUCT = "DELETE_PRODUCT"
+//Message
+export const MESSAGE = "MESSAGE"
+//delete PRODUCT - success
+export const DELETE_PRODUCT_SUCCESS = "DELETE_PRODUCT_SUCCESS"
+//delete PRODUCT - failture
+export const DELETE_PRODUCT_FAILURE = "DELETE_PRODUCT_FAILURE"
+/* END PRODUCTS */
+
+/* DEPARTMENT */
+//get especific PRODUCT
+export const GET_DEPARTMENT = "GET_PRODUCT"
+// get PRODUCT list - success
+export const GET_DEPARTMENT_SUCCESS = 'GET_PRODUCT_SUCCESS';
+//delete PRODUCT - failure
+export const GET_DEPARTMENT_FAILURE = "GET_PRODUCT_FAILURE"
+
+//get DEPARTMENTSs list
+export const GET_DEPARTMENTS = "GET_PRODUCTS"
+// get DEPARTMENTS list - success
+export const GET_DEPARTMENTS_SUCCESS = 'GET_PRODUCTS_SUCCESS';
+//delete DEPARTMENTS - failure
+export const GET_DEPARTMENTS_FAILURE = "GET_PRODUCTS_FAILURE"
+
+//get DEPARTMENTSs length
+export const COUNT_DEPARTMENTS = "COUNT_PRODUCTS"
+
+//delete DEPARTMENTS
+export const DELETE_DEPARTMENT = "DELETE_PRODUCT"
+//delete PRODUCT - success
+export const DELETE_DEPARTMENT_SUCCESS = "DELETE_PRODUCT_SUCCESS"
+//delete DEPARTMENTS - failture
+export const DELETE_DEPARTMENT_FAILURE = "DELETE_PRODUCT_FAILURE"
+/* END DEPARTMENTS */
+
+/* CATEGORY */
+//get especific PRODUCT
+export const GET_CATEGORY = "GET_PRODUCT"
+// get PRODUCT list - success
+export const GET_CATEGORY_SUCCESS = 'GET_CATEGORY_SUCCESS';
+//delete PRODUCT - failure
+export const GET_CATEGORY_FAILURE = "GET_CATEGORY_FAILURE"
+
+//get CATEGORIES list
+export const GET_CATEGORIES = "GET_CATEGORIES"
+// get CATEGORIES list - success
+export const GET_CATEGORIES_SUCCESS = 'GET_CATEGORIES_SUCCESS';
+//delete CATEGORIES - failure
+export const GET_CATEGORIES_FAILURE = "GET_CATEGORIES_FAILURE"
+
+//get CATEGORYSs length
+export const COUNT_CATEGORIES = "COUNT_CATEGORIES"
+
+//delete CATEGORYS
+export const DELETE_CATEGORY = "DELETE_PRODUCT"
+//delete PRODUCT - success
+export const DELETE_CATEGORY_SUCCESS = "DELETE_PRODUCT_SUCCESS"
+//delete CATEGORYS - failture
+export const DELETE_CATEGORY_FAILURE = "DELETE_PRODUCT_FAILURE"
+/* END CATEGORIES */

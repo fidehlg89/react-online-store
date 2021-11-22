@@ -1,10 +1,10 @@
 import { styled } from "../index";
 
 const Item = styled.ul`
-  padding: 20px 20px 20px 40px;
-  color: #ddd;
+  padding: 20px 20px 20px 1.5rem;
+  //color: #ddd;
   &:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #f2f2f2;
     cursor: pointer;
   }
 `;

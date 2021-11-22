@@ -1,46 +1,37 @@
 import { styled } from "../index";
-import NavItem from "./navitem";
+import MetisMenu from 'react-metismenu';
 
-const items = ["Item 1", "Item 2", "Item 3"];
+import { NavItems } from "./navitems"
 
-const SideNavArea = styled.div`
+const SideNavContent = styled.div`
   grid-area: sidenav;
-  background-color: #394263;
-`;
-
-const SideNavContent = styled(SideNavArea)`
-  display: flex; /* Will be hidden on mobile */
+  display: flex;
   flex-direction: column;
-  grid-area: sidenav;
-  background-color: #394263;
+  background-color: #fafbfc;
+  box-shadow: 0 0.46875rem 2.1875rem rgb(8 10 37 / 3%), 0 0.9375rem 1.40625rem rgb(8 10 37 / 3%), 0 0.25rem 0.53125rem rgb(8 10 37 / 5%), 0 0.125rem 0.1875rem rgb(8 10 37 / 3%);
 `;
 
-const SideNavList = styled.ul`
-  padding: 0;
-  margin-top: 85px;
+const SideNavList = styled(MetisMenu)`
+  padding: 0 0.25rem;
+  margin-top: 10px;
   list-style-type: none;
 `;
 
 const SiteName = styled.div`
   grid-area: sidenav;
-  padding: 16px 20px 16px 40px;
-  color: white;
-  background-color: #648ca6;
+  padding: 20px 20px 20px 1.5rem;
+  //color: #eee;
   z-index: 1;
   cursor: pointer;
+  background-color: #fafbfc;
+  box-shadow: 0 0.46875rem 2.1875rem rgb(8 10 37 / 3%), 0 0.9375rem 1.40625rem rgb(8 10 37 / 3%), 0 0.25rem 0.53125rem rgb(8 10 37 / 5%), 0 0.125rem 0.1875rem rgb(8 10 37 / 3%);
 `;
 
 const SideNav = () => {
   return (
     <SideNavContent>
       <SiteName>Online Store</SiteName>
-      <SideNavList>
-        {items.length > 0
-          ? items.map((element, index) => (
-              <NavItem key={index} item={element} />
-            ))
-          : null}
-      </SideNavList>
+      <SideNavList content={NavItems} activeLinkFromLocation className="vertical-nav-menu" iconNamePrefix="" classNameStateIcon="pe-7s-angle-down" />
     </SideNavContent>
   );
 };
