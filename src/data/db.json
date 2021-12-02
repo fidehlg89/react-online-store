@@ -1,36 +1,97 @@
 {
-    "products": [{
+    "products": [
+        {
             "id": 1,
-            "name": "Xiami 6 Pro - Color Black",
+            "name": "Xiaomi Redmi Note 10 Pro",
             "image": "",
-            "cost": "100 USD",
+            "cost": "USD 346.55",
             "department": "1",
             "category": "1"
         },
         {
             "id": 2,
-            "name": "iPhone Pro 11 - Plate",
+            "name": "Samsung Galaxy Z Fold3",
             "image": "",
-            "cost": "100 USD",
+            "cost": "USD 1008.99",
+            "department": "1",
+            "category": "2"
+        },
+        {
+            "id": 3,
+            "name": "Galaxy Note 20 Ultra 5G",
+            "image": "",
+            "cost": "USD 1099.99",
             "department": "1",
             "category": "1"
         },
         {
-            "id": 3,
-            "name": "Samsung  - Plate",
+            "id": 4,
+            "name": "Dell XPS 15 Laptop",
             "image": "",
-            "cost": "100 USD",
-            "department": "1",
-            "category": "1"
+            "cost": "USD 1,749.99",
+            "department": "2",
+            "category": "3"
+        },
+        {
+            "id": 5,
+            "name": "HP Touch Laptop Intel i5",
+            "image": "",
+            "cost": "USD 848.99",
+            "department": "2",
+            "category": "3"
+        }, {
+            "id": 6,
+            "name": "Surface Headphones 2",
+            "image": "",
+            "cost": "USD 249.99",
+            "department": "2",
+            "category": "5"
+        },
+        {
+            "id": 6,
+            "name": "Beats Solo Pro Wireless",
+            "image": "",
+            "cost": "USD 179.96",
+            "department": "2",
+            "category": "5"
         }
     ],
-    "departments": [{
-        "id": 1,
-        "name": "socks"
-    }],
-    "categories": {
-        "id": 1,
-        "name": "phones",
-        "department": "1"
-    }
+    "departments": [
+        {
+            "id": 1,
+            "name": "Phones and Smart Devices",
+            "categories":[1,2]
+        },
+        {
+            "id": 2,
+            "name": "Computers and Accesories"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Xiaomi",
+            "department": 1
+        },
+        {
+            "id": 2,
+            "name": "Samsung",
+            "department": 1
+        },
+        {
+            "id": 3,
+            "name": "Laptops",
+            "department": 2
+        },
+        {
+            "id": 4,
+            "name": "Keyboards",
+            "department": 2
+        },
+        {
+            "id": 5,
+            "name": "Headphones",
+            "department": 2
+        }
+    ]
 }

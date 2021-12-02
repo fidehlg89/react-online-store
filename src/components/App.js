@@ -8,13 +8,25 @@ import {
 import NotFound from "./../containers/notfound";
 import Layout from "./../components/layout"
 import Home from '../containers/home';
+import Product from '../containers/product';
 
 const App = () => {
   return (
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<Layout><Home /></Layout>} />
+          <Route path="/"
+            element={
+              <Layout>
+                <Home />
+              </Layout>
+            } />
+          <Route path="/products"
+            element={
+              <Layout>
+                <Product />
+              </Layout>
+            } />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
@@ -25,7 +37,7 @@ const App = () => {
 export default App;
 
 
-{/*<BrowserRouter>
+/*<BrowserRouter>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/create" element={<ProductCreate />} />
@@ -37,4 +49,4 @@ export default App;
         <Route path="/categories/new" element={<CategoryCreate />} />
         <Route path="/categories/edit/:id" element={<CategoryUpdate />} />
         <Route element={<NotFount />} />
-      </BrowserRouter>*/}
+      </BrowserRouter>*/
