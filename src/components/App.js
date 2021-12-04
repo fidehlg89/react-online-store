@@ -9,6 +9,7 @@ import NotFound from "./../containers/notfound";
 import Layout from "./../components/layout"
 import Home from '../containers/home';
 import Product from '../containers/product';
+import ProductCreate from '../containers/product/productcreate';
 
 const App = () => {
   return (
@@ -25,6 +26,12 @@ const App = () => {
             element={
               <Layout>
                 <Product />
+              </Layout>
+            } />
+          <Route path="/products/create"
+            element={
+              <Layout>
+                <ProductCreate />
               </Layout>
             } />
           <Route path="*" element={<NotFound />} />

@@ -13,8 +13,8 @@ const FooterCell = styled.footer`
 const Footer = () => {
   return (
     <FooterCell>
-      <div class="footer__copyright">&copy; 2018 MTH</div>
-      <div class="footer__signature">Made with love by pure genius</div>
+      <div className="footer__copyright">&copy; 2018 MTH</div>
+      <div className="footer__signature">Made with love by pure genius</div>
     </FooterCell>
   );
 };

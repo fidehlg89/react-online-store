@@ -1,4 +1,4 @@
-import { styled } from "./../../components/common"
+//import { styled } from "./../../components/common"
 import Product from "./../../components/product"
 
 import { Row, Col } from "reactstrap"
@@ -6,7 +6,6 @@ import { Row, Col } from "reactstrap"
 const ProductList = ({ products }) => {
     return (
         <Row>
-
             {
                 products.length > 0 ? products.map((element) => {
                     return (

@@ -15,8 +15,8 @@ const HeaderCell = styled.header`
 const Header = () => {
   return (
     <HeaderCell>
-      <div class="header__search" > Search... </div>
-      <div class="header__avatar" > Your face </div>
+      <div className="header__search" > Search... </div>
+      <div className="header__avatar" > Your face </div>
     </HeaderCell>
   );
 };

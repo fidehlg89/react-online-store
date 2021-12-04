@@ -59,8 +59,7 @@
     "departments": [
         {
             "id": 1,
-            "name": "Phones and Smart Devices",
-            "categories":[1,2]
+            "name": "Phones and Smart Devices"
         },
         {
             "id": 2,
