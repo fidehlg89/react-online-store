@@ -1,33 +1,34 @@
 import { useEffect } from "react";
 import ProductList from "./productlist";
-import { connect } from 'react-redux';
-import { getProductsAsync } from '../../redux/actions/asyncActions/productAsync';
+import { connect } from "react-redux";
+import {
+  getProductsAsync,
+  updateProductAsync,
+  deleteProductAsync,
+} from "../../redux/actions/asyncActions/productAsync";
 
-const Product = ({ products, productsData }) => {
+const Product = ({ products, productsData, deleteProduct }) => {
+  
+  useEffect(() => {
+    productsData();
+  }, [productsData]);
 
-    useEffect(() => {
-        productsData();
-    }, [productsData]);
-
-    return (
-        <div>
-            {
-                products != null ?
-                    <ProductList products={products} />
-                    : null
-            }
-        </div>
-    )
-}
+  return (
+    <div>
+      <ProductList products={products} onDelete={deleteProduct} />
+    </div>
+  );
+};
 
 const mapStateToProps = (state) => {
-    return {
-        products: state.products.data
-    }
-}
+  return {
+    products: state.products.data,
+  };
+};
 
 const mapDispatchToProps = (dispatch) => ({
-    productsData: () => dispatch(getProductsAsync())
-})
+  productsData: () => dispatch(getProductsAsync()),
+  deleteProduct: (item) => dispatch(deleteProductAsync(item)),
+});
 
-export default connect(mapStateToProps, mapDispatchToProps)(Product)
+export default connect(mapStateToProps, mapDispatchToProps)(Product);

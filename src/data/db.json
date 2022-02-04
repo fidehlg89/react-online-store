@@ -1,96 +1,139 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Xiaomi Redmi Note 10 Pro",
-            "image": "",
-            "cost": "USD 346.55",
-            "department": "1",
-            "category": "1"
-        },
-        {
-            "id": 2,
-            "name": "Samsung Galaxy Z Fold3",
-            "image": "",
-            "cost": "USD 1008.99",
-            "department": "1",
-            "category": "2"
-        },
-        {
-            "id": 3,
-            "name": "Galaxy Note 20 Ultra 5G",
-            "image": "",
-            "cost": "USD 1099.99",
-            "department": "1",
-            "category": "1"
-        },
-        {
-            "id": 4,
-            "name": "Dell XPS 15 Laptop",
-            "image": "",
-            "cost": "USD 1,749.99",
-            "department": "2",
-            "category": "3"
-        },
-        {
-            "id": 5,
-            "name": "HP Touch Laptop Intel i5",
-            "image": "",
-            "cost": "USD 848.99",
-            "department": "2",
-            "category": "3"
-        }, {
-            "id": 6,
-            "name": "Surface Headphones 2",
-            "image": "",
-            "cost": "USD 249.99",
-            "department": "2",
-            "category": "5"
-        },
-        {
-            "id": 6,
-            "name": "Beats Solo Pro Wireless",
-            "image": "",
-            "cost": "USD 179.96",
-            "department": "2",
-            "category": "5"
-        }
-    ],
-    "departments": [
-        {
-            "id": 1,
-            "name": "Phones and Smart Devices"
-        },
-        {
-            "id": 2,
-            "name": "Computers and Accesories"
-        }
-    ],
-    "categories": [
-        {
-            "id": 1,
-            "name": "Xiaomi",
-            "department": 1
-        },
-        {
-            "id": 2,
-            "name": "Samsung",
-            "department": 1
-        },
-        {
-            "id": 3,
-            "name": "Laptops",
-            "department": 2
-        },
-        {
-            "id": 4,
-            "name": "Keyboards",
-            "department": 2
-        },
-        {
-            "id": 5,
-            "name": "Headphones",
-            "department": 2
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Xiaomi Redmi Note 10 Pro",
+      "image": "",
+      "cost": "USD 346.55",
+      "department": "2",
+      "category": "5"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy Z Fold",
+      "image": "",
+      "cost": "USD 1018.99",
+      "department": "2",
+      "category": "4"
+    },
+    {
+      "id": 3,
+      "name": "Galaxy Note 20 Ultra 5G",
+      "image": "",
+      "cost": "USD 1099.99",
+      "department": "1",
+      "category": "1"
+    },
+    {
+      "id": 4,
+      "name": "Dell XPS 15 Laptop yy",
+      "image": "",
+      "cost": "USD 1,749.97",
+      "department": "2",
+      "category": "5"
+    },
+    {
+      "id": 5,
+      "name": "HP Touch Laptop 15",
+      "image": "",
+      "cost": "USD 848.99",
+      "department": "2",
+      "category": "5"
+    },
+    {
+      "id": 6,
+      "name": "Beats Solo Pro Wireless",
+      "image": "",
+      "cost": "USD 179.96",
+      "department": "2",
+      "category": "5"
+    },
+    {
+      "name": "Xiaomi Redmi Note 10 22",
+      "cost": "USD 320.99",
+      "department": "2",
+      "category": "5",
+      "id": 7
+    },
+    {
+      "name": "Xiaomi Redmi 9",
+      "cost": "USD 155.99",
+      "department": "1",
+      "category": "3",
+      "id": 8
+    },
+    {
+      "name": "Xiaomi Redmi Note 10 500",
+      "cost": "USD 299.99",
+      "department": "2",
+      "category": "4",
+      "id": 9
+    },
+    {
+      "name": "Samsung Redmi Note 9",
+      "cost": "USD 122.99",
+      "department": "1",
+      "category": "2",
+      "id": 10
+    },
+    {
+      "name": "Computer Redmi Note",
+      "cost": "USD 1,700.99",
+      "department": "3",
+      "category": "5",
+      "id": 11
+    },
+    {
+      "name": "X1",
+      "cost": "USD 99.99",
+      "department": "4",
+      "category": "5",
+      "id": 12
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Phones and Smart Devices"
+    },
+    {
+      "id": 2,
+      "name": "Computer and Accesories"
+    },
+    {
+      "name": "Wash and Soap",
+      "id": 3
+    },
+    {
+      "name": "Perfums",
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Xiaomi",
+      "department": "1"
+    },
+    {
+      "id": 2,
+      "name": "Samsung",
+      "department": 1
+    },
+    {
+      "id": 3,
+      "name": "Laptop",
+      "department": "3"
+    },
+    {
+      "id": 4,
+      "name": "Keyboards",
+      "department": 2
+    },
+    {
+      "id": 5,
+      "name": "Headphones",
+      "department": 2
+    }
+  ]
 }

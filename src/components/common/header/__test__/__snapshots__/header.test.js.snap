@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<header
+  className="sc-bdvvtL DHgkD"
+  data-testid="header"
+>
+  <span>
+     
+  </span>
+  <div>
+    <img
+      src="https://happytravel.viajes/wp-content/uploads/2020/04/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png"
+      width="80px"
+    />
+  </div>
+</header>
+`;

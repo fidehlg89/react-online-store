@@ -29,7 +29,7 @@
 }
 
 .vertical-nav-menu .metismenu-container .metismenu-link {
-  transition: transform .2s, height 300ms, color 300ms, background-color 300ms;
+  transition: transform 0.2s, height 300ms, color 300ms, background-color 300ms;
   display: block;
   line-height: 2.5rem;
   height: 2.5rem;
@@ -47,15 +47,18 @@
 }
 
 .vertical-nav-menu .metismenu-container .metismenu-link:hover i.metismenu-icon {
-  opacity: .6;
+  opacity: 0.6;
 }
 
-.vertical-nav-menu .metismenu-container .metismenu-link:hover i.metismenu-state-icon {
+.vertical-nav-menu
+  .metismenu-container
+  .metismenu-link:hover
+  i.metismenu-state-icon {
   opacity: 1;
 }
 
 .vertical-nav-menu .metismenu-container .metismenu-link.active {
-  color: #033C73;
+  color: #033c73;
   background: #d1f3ff;
 }
 
@@ -75,7 +78,7 @@
   top: 50%;
   margin-top: -17px;
   font-size: 1.5rem;
-  opacity: .3;
+  opacity: 0.3;
   transition: color 300ms;
 }
 
@@ -94,11 +97,11 @@
 }
 
 .vertical-nav-menu .metismenu-container .metismenu-container.visible {
-  padding: .5em 0 0 2rem;
+  padding: 0.5em 0 0 2rem;
 }
 
 .vertical-nav-menu .metismenu-container .metismenu-container.visible:before {
-  content: '';
+  content: "";
   height: 100%;
   opacity: 1;
   width: 3px;
@@ -109,27 +112,48 @@
   border-radius: 15px;
 }
 
-.vertical-nav-menu .metismenu-container .metismenu-container.visible>.metismenu-item>.metismenu-link {
+.vertical-nav-menu
+  .metismenu-container
+  .metismenu-container.visible
+  > .metismenu-item
+  > .metismenu-link {
   height: 2.3em;
   line-height: 2.3em;
   color: #868e96;
   cursor: pointer;
 }
 
-.vertical-nav-menu .metismenu-container .metismenu-container.visible>.metismenu-item>.metismenu-link:hover {
-  color: #033C73;
+.vertical-nav-menu
+  .metismenu-container
+  .metismenu-container.visible
+  > .metismenu-item
+  > .metismenu-link:hover {
+  color: #033c73;
 }
 
-.vertical-nav-menu .metismenu-container .metismenu-container.visible>.metismenu-item>.metismenu-link .metismenu-icon {
+.vertical-nav-menu
+  .metismenu-container
+  .metismenu-container.visible
+  > .metismenu-item
+  > .metismenu-link
+  .metismenu-icon {
   display: none;
 }
 
-.vertical-nav-menu .metismenu-container .metismenu-container.visible>.metismenu-item>.metismenu-link.active {
-  color: #033C73;
+.vertical-nav-menu
+  .metismenu-container
+  .metismenu-container.visible
+  > .metismenu-item
+  > .metismenu-link.active {
+  color: #033c73;
   background: #d1f3ff;
 }
 
-.vertical-nav-menu .metismenu-container .metismenu-container .metismenu-item>.metismenu-link {
+.vertical-nav-menu
+  .metismenu-container
+  .metismenu-container
+  .metismenu-item
+  > .metismenu-link {
   height: 0;
   overflow: hidden;
 }
@@ -142,9 +166,16 @@
 *  Licensing: http://www.pixeden.com/icon-fonts/stroke-7-icon-font-set
 */
 @font-face {
-  font-family: 'Pe-icon-7-stroke';
+  font-family: "Pe-icon-7-stroke";
   src: url("components/icons/pe7-icon/fonts/Pe-icon-7-stroke.eot?d7yf1v");
-  src: url("components/icons/pe7-icon/fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v") format("embedded-opentype"), url("components/icons/pe7-icon/fonts/Pe-icon-7-stroke.woff?d7yf1v") format("woff"), url("components/icons/pe7-icon/fonts/Pe-icon-7-stroke.ttf?d7yf1v") format("truetype"), url("components/icons/pe7-icon/fonts/Pe-icon-7-stroke.svg?d7yf1v#Pe-icon-7-stroke") format("svg");
+  src: url("components/icons/pe7-icon/fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v")
+      format("embedded-opentype"),
+    url("components/icons/pe7-icon/fonts/Pe-icon-7-stroke.woff?d7yf1v")
+      format("woff"),
+    url("components/icons/pe7-icon/fonts/Pe-icon-7-stroke.ttf?d7yf1v")
+      format("truetype"),
+    url("components/icons/pe7-icon/fonts/Pe-icon-7-stroke.svg?d7yf1v#Pe-icon-7-stroke")
+      format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -152,7 +183,7 @@
 [class^="pe-7s-"],
 [class*=" pe-7s-"] {
   display: inline-block;
-  font-family: 'Pe-icon-7-stroke';
+  font-family: "Pe-icon-7-stroke";
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -205,7 +236,7 @@
   list-style-type: none;
 }
 
-.pe-ul>li {
+.pe-ul > li {
   position: relative;
 }
 
@@ -222,9 +253,9 @@
 }
 
 .pe-border {
-  padding: .2em .25em .15em;
+  padding: 0.2em 0.25em 0.15em;
   border: solid 0.08em #eeeeee;
-  border-radius: .1em;
+  border-radius: 0.1em;
 }
 
 .pull-right {
@@ -233,8 +264,8 @@
 
 .pe.pull-left {
   float: left;
-  margin-right: .3em;
-  margin-left: .3em;
+  margin-right: 0.3em;
+  margin-left: 0.3em;
 }
 
 .pe-spin {
@@ -1100,7 +1131,6 @@
 
 .pe-7s-back:before {
   content: "";
-
 }
 
 .pe-7s-attention:before {
